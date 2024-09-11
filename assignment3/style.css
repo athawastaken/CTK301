@@ -1,0 +1,41 @@
+/* Stylesheet for Assignment #3 */
+
+#title {
+    color: #b50d0d;
+
+}
+
+.text1 {
+    color: #990db5;
+
+}
+
+#subtitle {
+    color: #27c439;
+
+}
+
+.text2 {
+    color: #40579c;
+
+}
+
+.text3 {
+    color: #c4bf27;
+
+}
+  
+  a:link {
+    color: #ff0000;
+
+  }
+  
+  a:visited {
+    color: #00ff00;
+  }
+  
+  
+  a:hover {
+    color: #ffff00;
+  }        
+  
