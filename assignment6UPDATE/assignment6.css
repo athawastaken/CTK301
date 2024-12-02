@@ -1,0 +1,133 @@
+body {
+    background-image: url("a62.png");
+
+}
+
+
+#wrapper {
+    width: 960px;
+    margin: 1em auto;
+    padding: 0;
+    display: grid;
+    background-color: white;
+    margin: 1em auto;
+    border: 3px solid black;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px auto 75px
+    
+
+
+}
+
+header {
+    grid-column: span 12;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: normal;
+    background-color: black;
+    margin: 1em 1em auto 1em;
+    padding: 0;
+    border-bottom: 1em auto black;
+
+
+}
+
+h1 {
+    font-weight: normal;
+    text-indent: 15px;
+    
+}
+h2 {
+    border-bottom: 0.1em solid black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+
+}
+nav {
+    grid-column: span 3;
+    width: 200px;
+    padding-left: 20px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
+  
+
+}
+nav ul li {
+    margin-bottom: 10px;
+   
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: none;
+    text-decoration: none;
+}
+  
+nav ul li a:hover {
+    background-color: darkred;
+}
+
+main {
+    grid-column: span 9;
+    margin: auto 1em 1em 1em;
+
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    border: 3px solid black;
+    float: left;
+    margin: 0 15px 10px 0;
+    padding: 10px
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif, Arial, sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+a {
+    color: darkred;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+main a:hover {
+    color: blue;
+    text-decoration: underline;
+
+}
+footer {
+    grid-column: span 12;
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+
+    text-indent: 15px;
+    font-style: italic;
+    border-top: 3px solid black;
+
+}
