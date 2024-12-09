@@ -161,31 +161,6 @@ a {
 
 }
 
-#img_TheBear {
-    float: right;
-    border: 4px solid #796878;
-    margin: 5px;
-
-}
-
-#img_Carmy {
-    max-width: 100%;
-    margin: 5px;
-
-}
-
-#img_Sydney {
-    max-width: 100%;
-    margin: 5px;
-
-}
-
-#img_Richie {
-    max-width: 100%;
-    margin: 5px;
-
-}
-
 footer {
     border-top: 4px solid #796878;
     padding: 10px;
@@ -197,3 +172,20 @@ footer {
 #footer_p {
     color: white;
 }
+
+#myCarousel {
+    --f-carousel-spacing: 10px;
+    --f-carousel-slide-width: 100%;
+    --f-progress-color: white;  
+}
+  
+  #myCarousel .f-carousel__slide {
+    padding: 50px;
+    text-align: center;
+    
+  }
+
+  img {
+    max-width: 400px;
+    max-height: 400px;
+  }

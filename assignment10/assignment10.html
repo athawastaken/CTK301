@@ -2,7 +2,13 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Assignment10</title>
+    <title>Nate Hurckes | Portfolio</title>
+    <!-- Carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
+    <!--Carousel Autoplay-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.css" />
+    <!-- Vanilla CSS -->
     <link rel="stylesheet" href="finalportfolio.css">
 
 </head>
@@ -23,8 +29,17 @@
     </nav>
 
     <main id="leftmain">
-        <img src="placeholder1.jpg" alt="Placeholder1" id="placeholder1">
-    </main>
+        <div id="myCarousel" class="f-carousel">
+            <div class="f-carousel__slide"><img src="whitebutterflies.jpg"></div>
+            <div class="f-carousel__slide"><img src="gamedev1.png"></div>
+            <div class="f-carousel__slide"><img src="gamedev2.png"></div>
+            <div class="f-carousel__slide"><img src="quadra.jpg"></div>
+            <div class="f-carousel__slide"><img src="x64.jpg"></div>
+            <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+
+        </div>
+        </main>
     <main id="rightmain">
         <h2> Welcome!</h2>
         <p>I am Nathan Hurckes, a game design student, writer, graphic designer, video editor, and aspring game dev! I'm 19 years old, and am currently attending Illinois State University for my sophomore year.</p>
@@ -34,6 +49,15 @@
         <p id="footer_p">v0.1.0 - Pre-Submission Build #1. Created under the supervision of John Turton, instructor at Illinois State University.</p>
 
     </footer>
+    <script>
+        const container = document.getElementById("myCarousel");
+        const options = { 
+            Autoplay: { timeout: 4000,},
+            infinite: true
+
+        };
+        new Carousel(container, options, { Autoplay });
+    </script>
     </div>
 </body>
 </html>
