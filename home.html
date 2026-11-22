@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ATHA | Home</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+    <!-- Carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
+    <!--Carousel Autoplay-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.css" />
+    <!-- Vanilla CSS -->
+    <link rel="stylesheet" href="finalportfolio.css">
+
+</head>
+
+<body>
+    <div id="wrapper">
+    <header>
+        <h1>ATHA </h1> <h2>જ⁀➴</h2>
+    
+
+    <nav>
+        <ul>
+             <li><a href="home.html" id="currentPage">Home</a></li>
+             <li><a href="gallery.html" >Gallery</a></li>
+             <li><a href="whitebutterflies.html" >White Butterflies</a></li>
+             <li><a href="contact.html" >Contact</a></li>
+            </ul>
+    </nav>
+</header>
+
+<div id="lefthome">
+<h1>★ ATHA / NATHAN HURCKES ☆ </h1>
+    <br>
+<p class="p_big"> ★ - GAME DESIGN STUDENT-  ☆</p>
+    <br>
+<p class="p_big"> ☆ - WRITER - ★</p>
+    <br>
+<p class="p_big"> ★ - GRAPHIC DESIGNER - ☆</p>
+    <br>
+<p class="p_big"> ☆ - PRODUCER FOR REDBIRD OVERWATCH - ☆</p>
+    <br>
+<p class="p_big"> ★ - ASPIRING GAME DEV - ★ </p>
+</div>
+    
+<div id="righthome">
+        <div id="myCarousel" class="f-carousel">
+            <div class="f-carousel__slide"><img src="whitebutterflies.jpg" alt="White Butterflies"></div>
+            <div class="f-carousel__slide"><img src="gamedev1.png" alt="GameDev1"> </div>
+            <div class="f-carousel__slide"><img src="gamedev2.png" alt="GameDev2"></div>
+            <div class="f-carousel__slide"><img src="quadra.png" alt="GameDev3"></div>
+            <div class="f-carousel__slide"><img src="x64.jpg" alt="x64"></div>
+            
+
+
+            <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <p id="footer_p">v0.2.0 - Final Portfolio Build. Created under the supervision of John Turton, instructor at Illinois State University.</p>
+
+    </footer>
+    <script>
+        const container = document.getElementById("myCarousel");
+        const options = { 
+            Autoplay: { timeout: 3500,},
+            infinite: true
+
+        };
+        new Carousel(container, options, { Autoplay });
+    </script>
+    </div>
+</body>
+</html>

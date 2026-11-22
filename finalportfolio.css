@@ -1,0 +1,415 @@
+body {
+    background-image: url("bg.jpg");
+
+}
+
+#wrapper {
+ 
+    width: 1400px;
+
+    color: #fff;
+    margin: 1em auto;
+    padding: 0;
+    display: grid;
+    border: 3px solid #fcd4f9;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, auto);
+    
+}
+
+p {
+    font-family: "Sen", sans-serif;
+    text-align: center;
+
+
+}
+
+.p_big {
+    font-family: "Sen", sans-serif;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+}
+a {
+    color: white;
+    font-family: "Sen", sans-serif;
+    text-align: center;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    background-color: rgba(81, 60, 92, 0.5);
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    grid-column: span 12;
+    grid-row: span 1;
+}
+
+header h1 {
+    padding-left: 40px;
+    font-size: 74px;
+    font-family: "Sen", sans-serif;
+    font-weight: 600;
+
+}
+
+header h2 {
+    padding-left: 20px;
+    font-size: 50px;
+    font-family: "Sen", sans-serif;
+    font-weight: 400;
+}
+header nav {
+    padding-left: 30px;
+    grid-column: span 12;
+    grid-row: span 1;
+    color: #fff;}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+
+
+}
+
+header nav ul li {
+    display: inline;  
+    overflow: auto;
+}
+
+header nav ul li a {
+    float: left;
+    text-align: center;
+    padding: 13px;
+    color: #cfa4dd;
+    font-size: 28px;
+    text-align: center;
+    font-family: "Sen", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    
+    margin: 20px;
+
+}
+
+nav ul li a:hover {
+    background-color: #9449c0;
+    color: white;
+    
+}
+
+#currentPage {
+    color:white;
+    font-family: "Sen", sans-serif;
+
+}
+#righthome {
+    
+    grid-column: span 7;
+    grid-row: span 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;    
+}
+
+#lefthome {
+    grid-column: span 5;
+    grid-row: span 1;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;  
+    border-top: 3px solid #fcd4f9;
+
+
+}
+
+#lefthome h1 {
+    font-size: 36px;
+    text-align: center;
+    font-family: "Sen", sans-serif;
+    font-weight: 600;
+
+
+}
+
+#leftmain_p {
+    text-align: center;
+    font-family: "Sen", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#gamedev {
+    border-top: 3px solid #fcd4f9;
+    grid-column: span 12;
+    grid-row: span 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;    
+    padding: 3px auto auto 15px;
+
+
+}
+
+#gamedev h1 {
+    font-size: 48px;
+    text-align: center;
+    font-family: "Sen", sans-serif;
+    font-weight: 600;
+
+
+}
+
+#gamedev1 {
+    grid-column: span 6;
+    grid-row: span 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;    
+    padding: 3px auto auto 15px;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+#gamedev2 {
+    grid-column: span 6;
+    grid-row: span 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;    
+    padding: 3px auto auto 15px;
+    text-align: center;
+
+
+}
+
+#writing {
+    grid-column: span 12;
+    grid-row: span 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;    
+    padding: 3px auto auto 15px;
+
+
+}
+
+#writing h1 {
+    font-size: 48px;
+    text-align: center;
+    font-family: "Sen", sans-serif;
+    font-weight: 600;
+
+
+}
+#writing1 {
+    grid-column: span 6;
+    grid-row: span 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;    
+    padding: 3px auto auto 15px;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+#writing2 {
+    grid-column: span 6;
+    grid-row: span 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;    
+    padding: 3px auto auto 15px;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+#writing3 {
+    grid-column: span 12;
+    grid-row: span 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;    
+    padding: 3px auto auto 15px;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+#graphic {
+    grid-column: span 12;
+    grid-row: span 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;    
+    padding: 3px auto auto 15px;
+
+
+}
+
+#graphic h1 {
+    font-size: 48px;
+    text-align: center;
+    font-family: "Sen", sans-serif;
+    font-weight: 600;
+}
+
+#graphic1 {
+        grid-column: span 6;
+        grid-row: span 1;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;    
+        padding: 3px auto auto 15px;
+        text-align: center;
+        padding-bottom: 50px;
+    
+}
+    
+#graphic2 {
+        grid-column: span 6;
+        grid-row: span 1;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;    
+        padding: 3px auto auto 15px;
+        text-align: center;
+    
+    
+}
+
+#broadcast {
+    grid-column: span 12;
+    grid-row: span 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;    
+    padding: 3px auto auto 15px;
+
+
+}
+
+#broadcast h1 {
+    font-size: 48px;
+    text-align: center;
+    font-family: "Sen", sans-serif;
+    font-weight: 600;
+}
+
+#broadcast1 {
+        grid-column: span 6;
+        grid-row: span 1;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;    
+        padding: 3px auto auto 15px;
+        text-align: center;
+        padding-bottom: 50px;
+    
+}
+    
+#broadcast2 {
+        grid-column: span 6;
+        grid-row: span 1;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;    
+        padding: 3px auto auto 15px;
+        text-align: center;
+    
+    
+}
+
+#white_butterflies {
+    border-top: 3px solid #fcd4f9;
+    grid-column: span 12;
+    grid-row: span 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;    
+    padding: 3px auto auto 15px;
+    text-align: center;
+    padding-right: 25px;
+
+
+
+}
+
+#white_butterflies h1 {
+    font-size: 48px;
+    text-align: center;
+    font-family: "Sen", sans-serif;
+    font-weight: 600;
+}
+
+#leftcontact {
+    
+    grid-column: span 5;
+    grid-row: span 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;   
+    text-align: center;
+    border-top: 3px solid #fcd4f9;
+
+ 
+}
+
+#rightcontact {
+    grid-column: span 7;
+    grid-row: span 1;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;  
+    text-align: center;
+    border-top: 3px solid #fcd4f9;
+}
+    #rightcontact h1 {
+        font-size: 48px;
+        text-align: center;
+        font-family: "Sen", sans-serif;
+        font-weight: 600;
+}
+
+footer {
+    border-top: 3px solid #fcd4f9;
+    padding: 10px;
+    grid-column: span 12;
+    grid-row: span 1;
+    background-color: rgba(81, 60, 92, 0.5);
+    color: #fff;}
+    
+
+#footer_p {
+    color: white;
+    font-family: "Sen", sans-serif;
+    font-weight: 200;
+
+    
+}
+
+#myCarousel {
+    --f-carousel-spacing: 20px;
+    --f-carousel-slide-width: 100%;
+    --f-progress-color: #fcd4f9;
+
+}
+  
+  #myCarousel .f-carousel__slide {
+    padding: 50px;
+    text-align: center;
+
+  }
+
+
+  img {
+    max-width: 600px;
+    max-height: 600px;
+  }
+
+ #img_wb {
+    float: left; 
+    padding: 30px;
+}
+
+#img_atha {
+    float: left; 
+    padding: 30px;
+    max-width: 500px;
+    max-height: 500px;
+    text-align: center;
+
+}
